@@ -17,11 +17,14 @@ https://github.com/Tavh/customer-platform/blob/main/README.md
 ```
 docker-compose up -d
 ```
+<img width="399" alt="Screenshot 2023-03-11 at 0 37 46" src="https://user-images.githubusercontent.com/44731477/224441328-5ccfa23d-00b5-440f-b888-df3a1be7193f.png">
 
 5. To view logs run (in this repo's root):
 ```
 docker-compose logs -f
 ```
+<img width="690" alt="Screenshot 2023-03-11 at 0 38 02" src="https://user-images.githubusercontent.com/44731477/224441345-3ce6ba1d-5eb9-426c-aa8b-c1600103e110.png">
+
 5. Once the compose is done, fire up a browser and navigate to http://localhost:8080
 
 6. Login by using the 'airflow' as both username and password
