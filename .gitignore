@@ -1,0 +1,12 @@
+# Python-related
+__pycache__/
+venv/
+venv
+
+# Other files and directories
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.idea/
