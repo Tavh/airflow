@@ -1,0 +1,22 @@
+[2023-03-10 22:22:08,571] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: user_total_spent.calculate_total_spent 2023-01-01T04:11:00+00:00 [queued]>
+[2023-03-10 22:22:08,683] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: user_total_spent.calculate_total_spent 2023-01-01T04:11:00+00:00 [queued]>
+[2023-03-10 22:22:08,690] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-10 22:22:08,692] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2023-03-10 22:22:08,693] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-10 22:22:08,784] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): calculate_total_spent> on 2023-01-01T04:11:00+00:00
+[2023-03-10 22:22:08,799] {standard_task_runner.py:52} INFO - Started process 1106 to run task
+[2023-03-10 22:22:08,834] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'user_total_spent', 'calculate_total_spent', '2023-01-01T04:11:00+00:00', '--job-id', '263', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/calc_total_spent.py', '--cfg-path', '/tmp/tmph5t14out', '--error-file', '/tmp/tmp8m7iba_8']
+[2023-03-10 22:22:08,846] {standard_task_runner.py:77} INFO - Job 263: Subtask calculate_total_spent
+[2023-03-10 22:22:09,315] {logging_mixin.py:104} INFO - Running <TaskInstance: user_total_spent.calculate_total_spent 2023-01-01T04:11:00+00:00 [running]> on host ea75b913e55e
+[2023-03-10 22:22:09,643] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_total_spent
+AIRFLOW_CTX_TASK_ID=calculate_total_spent
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-01T04:11:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-01T04:11:00+00:00
+[2023-03-10 22:22:10,284] {python.py:118} INFO - Done. Returned value was: None
+[2023-03-10 22:22:10,385] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=user_total_spent, task_id=calculate_total_spent, execution_date=20230101T041100, start_date=20230310T222208, end_date=20230310T222210
+[2023-03-10 22:22:11,068] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-03-10 22:22:11,111] {local_task_job.py:146} INFO - Task exited with return code 0
